@@ -2,7 +2,9 @@ package pl.pjatk;
 
 public class User {
     @Username(key = "Test me")
+
     private String name;
+    @Userage
     private int age;
     public String getName() {
         return name;

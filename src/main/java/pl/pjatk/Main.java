@@ -8,8 +8,8 @@ import java.util.Set;
 public class Main {
     public static void main(String[] args) {
         User user = new User();
-        user.setAge(26);
-        user.setName("Some name");
+        user.setAge(17);
+        user.setName("Some");
         System.out.println(user.getName());
         Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
         Set<ConstraintViolation<User>> validate = validator.validate(user);
